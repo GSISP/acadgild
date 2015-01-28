@@ -1,0 +1,22 @@
+
+public class Loopst {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		for (int i = 1; i < 100; i++) {
+			
+			int num=i;
+			int j;
+			for (j = 1; j <= i; j++) {
+				int k = i %= j;
+				if (k == 0) {
+					break;
+				}
+				System.out.print(num + ",");
+			}
+			
+		}
+
+	}
+
+}

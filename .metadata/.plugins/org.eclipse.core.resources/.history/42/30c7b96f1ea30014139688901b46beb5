@@ -1,0 +1,7 @@
+package com.acadgild.oops.encap;
+
+class XYZ {
+	private int name, numId;
+
+	
+}

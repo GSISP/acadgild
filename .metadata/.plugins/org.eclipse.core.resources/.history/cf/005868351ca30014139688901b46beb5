@@ -1,0 +1,26 @@
+package com.acadgild.oops;
+
+class Sum {
+	int x, y, z;
+	String p, q;
+
+	Sum(int a, int b) {
+		x = a;
+		y = b;
+		z = a + b;
+		System.out.println("The sum of numbers is: " + z);
+	}
+
+	Sum(String h, String i) {
+		p = h;
+		q = i;
+		System.out.println("Hi, " + p + " " + q);
+	}
+	
+	
+	int diff(int num1,int num2){
+		
+		int diffe=num1-num2;
+		return diffe;	
+		}
+}

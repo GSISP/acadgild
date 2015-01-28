@@ -1,0 +1,19 @@
+
+class Sum
+{
+int x, y, z;
+String p, q;
+Sum(int a, int b)
+{
+x=a;
+y=b;
+z=a+b;
+System.out.print("The sum of numbers is: " + z);
+}
+Sum (String h, String i)
+{
+p=h;
+q=i;
+System.out.println("Hi, " + p + " " + q);
+}
+}

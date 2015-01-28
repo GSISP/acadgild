@@ -1,0 +1,24 @@
+import java.io.DataInputStream;
+import java.io.IOException;
+
+class Factorial {
+	public static void main(String arg[]) {
+		int num = 0;
+		DataInputStream ins = new DataInputStream(System.in);
+
+		try {
+			System.out.print("Enter the no.");
+			num = Integer.parseInt(null, ins.readShort());
+		} catch (IOException e) {
+		}
+
+		System.out.print("Factorial is " + fact(num));
+	}
+
+	static int fact(int n) {
+		if (n == 1)
+			return 1;
+		else
+			return (n * fact(n - 1));
+	}
+}

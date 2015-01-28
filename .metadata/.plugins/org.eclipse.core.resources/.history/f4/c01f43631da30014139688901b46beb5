@@ -1,0 +1,17 @@
+package com.acadgild.oops;
+
+class Constr
+{
+public static void main(String args[]) //Constr.main(...)
+{
+	Sum k = new Sum("Rakesh", "Kumar");
+	Sum d = new Sum(10, 20);
+   
+	//int data= d.diff(50,20);
+	int data= Sum.mul(10, 30);
+	
+   System.out.println(" the mul between two numbers : "+data+
+		   " static variable value :"+Sum.xyz);
+	
+}
+}

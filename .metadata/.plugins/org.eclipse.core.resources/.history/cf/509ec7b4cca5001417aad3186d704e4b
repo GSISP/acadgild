@@ -1,0 +1,24 @@
+
+public class HelloEx {
+
+	//comments
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		System.out.println("Hello World !!! .... ");
+		
+		//classname.object.task
+		
+		short number1;
+		
+		number1=128;
+		
+		System.out.print("1. the number is : "+number1);//
+		System.out.print(".....2. the number 2 is : ");//
+
+	}
+
+}

@@ -1,0 +1,14 @@
+package com.acadgild.threads;
+
+
+class RunnableThread implements Runnable {
+
+	Thread runner;
+	public RunnableThread() {
+	}
+	public void run() {
+		// TODO Auto-generated method stub
+		
+	}
+	
+}

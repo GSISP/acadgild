@@ -1,0 +1,27 @@
+package com.acadgild.methods;
+
+import java.io.DataInputStream;
+import java.io.IOException;
+
+class Factorial {
+	public static void main(String arg[]) {
+		int num = 0;
+		DataInputStream ins = new DataInputStream(System.in);
+
+		try {
+			System.out.print("Enter the no.");
+			num = ins.readInt();
+		} catch (IOException e) {
+		}
+
+		Factorial fact_obj=new Factorial();
+		System.out.print("Factorial is " + fact_obj.fact(fact_obj.num));
+	}
+
+	 int fact(int n) {
+		if (n == 1)
+			return 1;
+		else
+			return (n * fact(n - 1));
+	}
+}

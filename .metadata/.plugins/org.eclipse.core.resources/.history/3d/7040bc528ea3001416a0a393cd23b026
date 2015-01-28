@@ -1,0 +1,34 @@
+class SwitchDemo {
+	public static void main(String[] args) {
+
+		char value = 'u';
+		long value_l=2342334;
+		byte value_b=127;
+		
+		String str="acadgild";
+
+		
+	}
+	
+	void check(char ch){
+		
+		switch (ch) { //int,byte,short,char,
+		//String(1.7)
+		case 'a':
+			
+		case 'e':
+			
+		case 'i':
+			
+		case 'o':
+			
+		case 'u':
+			System.out.println("vowel  : " +value);
+			break;
+		default:
+			System.out.println("constants");
+			break;
+		}
+		
+	}
+}

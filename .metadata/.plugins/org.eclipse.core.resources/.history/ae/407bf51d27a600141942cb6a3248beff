@@ -1,0 +1,6 @@
+package ranjith.game.acadgild2048;
+
+import android.app.Activity;
+
+public class MainActivity extends Activity {
+}

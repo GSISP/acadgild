@@ -1,0 +1,23 @@
+package com.acadgild.oops.encap;
+
+class XYZ {
+	private int name, numId;
+
+	public int getNumId() {
+		return numId;
+	}
+
+	public void setNumId(int numId) {
+		this.numId = numId;
+	}
+
+	public int getName() {
+		return name;
+	}
+
+	public void setName(int name) {
+		this.name = name;
+	}
+
+	
+}

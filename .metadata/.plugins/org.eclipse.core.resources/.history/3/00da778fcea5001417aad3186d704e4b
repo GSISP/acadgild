@@ -1,0 +1,36 @@
+
+public class HelloEx {
+
+	//comments
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		System.out.println("Hello World !!! .... ");
+		
+		//classname.object.task
+		
+		short number1,number2;
+		int sum;
+		
+		number1=128;
+		number2=200;
+		
+		sum=number1+number2;
+		
+		System.out.println("1. the number is : "+number1);//
+		System.out.println("2. the number 2 is : "+number2);//
+		System.out.println("2. the sum of two numbers is : "+sum);//
+		
+		sum=sum-100;
+		System.out.println("2. the sum value after diff of 100 is : "+sum);//
+		
+		int value=100;
+		float fl=value;
+		
+		System.out.println("int --- > float : "+fl);
+	}
+
+}

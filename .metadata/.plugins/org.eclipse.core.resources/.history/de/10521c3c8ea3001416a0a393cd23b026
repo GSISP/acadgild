@@ -1,0 +1,15 @@
+class SwitchDemo {
+	public static void main(String[] args) {
+
+		char value = 'u';
+		long value_l=2342334;
+		byte value_b=127;
+		
+		String str="acadgild";
+
+		
+	}
+	
+	
+	
+}

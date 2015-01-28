@@ -1,0 +1,14 @@
+package com.acadgild.oops;
+
+class Constr
+{
+public static void main(String args[])
+{
+	Sum k = new Sum("Rakesh", "Kumar");
+	Sum d = new Sum(10, 20);
+   int data= d.diff(50,20);
+   
+   System.out.println(" the diff between two numbers : "+data);
+	
+}
+}

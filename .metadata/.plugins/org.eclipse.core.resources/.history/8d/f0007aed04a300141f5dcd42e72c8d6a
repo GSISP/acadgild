@@ -1,0 +1,12 @@
+class XYZ {
+	int a, b;
+
+	void getdata(int a, int b) {
+		this.a = a;
+		this.b = b;
+	}
+
+	void showdata() {
+		System.out.print("a = " + a + "\nb = " + b + "\n");
+	}
+}

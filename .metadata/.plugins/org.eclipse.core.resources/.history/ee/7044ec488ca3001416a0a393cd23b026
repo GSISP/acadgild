@@ -1,0 +1,25 @@
+
+public class SimpleIfStatementDemo1
+{
+     public static void main(String args[])
+     {
+         //Declaring a variable "test" and initializing it with a value 10
+         int test=90;
+ 
+         //Checking if "test" is greater than 5
+         if(test>90)//true or false
+         {
+             //This block will be executed only if "test" is greater than 5
+             System.out.println("Merit");
+         }
+         else if(test>=75 && test<90){
+        	 
+         }
+         else{
+        	 System.out.println("Failure");
+         }
+         
+         System.out.println("Next statement after if-else block");
+         
+     }
+}

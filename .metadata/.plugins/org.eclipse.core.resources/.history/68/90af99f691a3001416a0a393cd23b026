@@ -1,0 +1,30 @@
+public class ForLoop {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		while(false){
+			
+		}
+		
+		do{
+			
+		}while(false);
+		
+		/*int i=10;//initialization
+		while (i>5) {//5>5 //condition
+			
+			System.out.println("the while boolean value " +i);
+			i--;//i=i-1; //inc/dec
+		}
+		System.out.println("the statement after while" );
+		
+		for(int j=10;j>5 ;j-- ){//initialization;condition;inc/dec
+			System.out.println("the while boolean value " +j);
+		}
+		System.out.println("the statement after for" );*/
+	}
+}

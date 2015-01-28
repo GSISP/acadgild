@@ -1,0 +1,9 @@
+class ThisClass
+{
+public static void main(String args[])
+{
+XYZ obj = new XYZ();
+obj.getdata(10, 20);
+obj.showdata();
+}
+}

@@ -1,0 +1,25 @@
+
+public class HelloWorld {
+
+	/**
+	 * @param args
+	 */
+	public  static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		//class.object.method()
+		
+		System.out.println(".....Hello World....");
+		
+		int num,num3,num4;
+		num=200;
+		
+		
+		int num2=250;
+		
+		System.out.println(num2);
+		
+		
+	}
+
+}

@@ -1,0 +1,16 @@
+
+class SwitchDemo {
+    public static void main(String[] args) {
+
+     char value='i';
+     
+     switch(value){
+     case 'e':
+     case 'i':
+     case 'o':
+     case 'u':
+     case 'a':System.out.println("vowel"); break;
+     default : System.out.println("constants");break;
+     }
+    }
+}

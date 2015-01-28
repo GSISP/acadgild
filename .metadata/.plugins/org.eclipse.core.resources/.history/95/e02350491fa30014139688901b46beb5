@@ -1,0 +1,26 @@
+package com.acadgild.methods;
+
+import java.util.Scanner;
+
+
+
+class Factorial {
+	public static void main(String arg[]) {
+		int num = 0;
+		Scanner ins = new Scanner(System.in);
+
+		System.out.print("Enter the no.");
+		num = Integer.parseInt(ins.nextLine());
+
+		System.out.print("Factorial is " + fact(num));
+		
+		ins.close();
+	}
+
+	static int fact(int n) {
+		if (n == 1)
+			return 1;
+		else
+			return (n * fact(n - 1));
+	}
+}

@@ -1,0 +1,21 @@
+package com.acadgild.visibility;
+
+public class ClassVisibility1 {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		//same class , same package
+		ClassVisibility1 obj=new ClassVisibility1();
+		obj.default_v;
+		
+	}
+	
+	public int public_v=10;
+	private int private_v=10;
+	int default_v=10;
+
+}

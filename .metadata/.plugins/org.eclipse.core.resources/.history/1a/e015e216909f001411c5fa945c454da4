@@ -1,0 +1,50 @@
+package loop;
+
+public class pattern {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		for (int a=1;a<=9;a++){
+			switch (a) {
+				case 1: for(int b=1;b<=1;b++){
+					System.out.print(b);
+				}break;
+				
+				case 2: for(int b=1;b<=2;b++){
+					System.out.print(b);
+				}break;
+				
+				case 3: for(int b=1;b<=3;b++){
+					System.out.print(b);
+				}break;
+				
+				case 4: for(int b=1;b<=4;b++){
+					System.out.print(b);
+				}break;
+				
+				case 5: for(int b=1;b<=5;b++){
+					System.out.print(b);
+				}break;
+				
+				case 6: for(int b=1;b<=4;b++){
+					System.out.print(b);
+				}break;
+				
+				case 7: for(int b=1;b<=3;b++){
+					System.out.print(b);
+				}break;
+				
+				case 8: for(int b=1;b<=2;b++){
+					System.out.print(b);
+				}break;
+				
+				case 9: for(int b=1;b<=1;b++){
+					System.out.print(b);
+				}break;
+			}
+			System.out.println("");
+			
+		}
+	}
+
+}
